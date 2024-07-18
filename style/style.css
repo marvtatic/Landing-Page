@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Header Section */
+
+.Header {
+  background-color: #1F2937;
+  height: 350px;
+}
+
+.HeaderSeperator {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.HeaderLogo {
+  font-size: 18px;
+  color: #E5E7EB;
+  width: 80%;
+  margin-top: 15px;
+}
+
+.LinkSeperator {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20%;
+  justify-content: space-between;
+}
+
+.HeaderLink {
+  margin-top: 20px;
+  color: #8a8b8d;
+  font-size: 12px;
+}
+
+.WebsiteAwesomeSeperator {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 30px;
+  width: 80%;
+}
+
+.WebsiteAwesome {
+  width: 50%;
+
+}
+
+.WebsiteAwesome h1 {
+  font-size: 48px;
+  font-style: bold;
+  color: #F9FAF8;
+}
+
+.WebsiteAwesome p {
+  color: #E5E7EB;
+}
+
+.PlaceholderImage {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8a8b8d;
+  color: whitesmoke;
+  padding: 50px;
+}
+
+/* Some random Information Section.*/
+
+.RandomInformation {
+  height: 300px;
+}
+
+.h3Heading {
+  font-style: bold;
+  text-align: center;
+}
+
+
+.ItemSeperator {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin: auto;
+}
+
+.ItemBlock {
+
+  width: 100px;
+  flex-wrap: nowrap;
+}
+
+.Item {
+  height: 85px;
+  width: 85px;
+  border: 2px solid rgb(0, 140, 255);
+  border-radius: 7px;
+  margin: 1rem auto;
+}
+
+.BorderText {
+  font-size: 8px;
+  text-align: center;
+}
+
+/* THOR GOD of Thunder Section */
+.ThorGodOfThunder {
+  background-color: rgba(165, 165, 166, 0.4);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.text {
+  position: relative;
+  left: 100px;
+  width: 33%;
+  font-size: 27px;
+
+  margin: auto;
+}
+
+.thorinitials p {
+  position: relative;
+  top: 190px;
+  right: 575px;
+}
+
+
+.button {
+  width: 75px;
+  height: 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3882F6;
+  color: whitesmoke;
+  font-size: 10px;
+}
+
+/* CallAction */
+
+.CallActionHero {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CallAction {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882F6;
+  color: whitesmoke;
+  border-radius: 8px;
+}
+
+.TextHolder {
+  display: block;
+  border: 2px solid black;
+  width: 60%;
+  text-align: left;
+}
+
+.TextHolder p {
+  font-size: 10px;
+}
+
+.ButtonHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.ButtonHolder .button {
+  border: 2px solid white;
+}
+
+.footer {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  color: whitesmoke;
+  font-size: 10px;
+}
